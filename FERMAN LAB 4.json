@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "Çay=[\"Beta\",\"Azərçay\",\"Champion\",\"Saro\"]\nprint(Çay)\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "['Beta', 'Azərçay', 'Champion', 'Saro']\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=14\ny=3\nprint(type(x+y))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=3   #int\ny=5   #float\nz=9  #complex  \nprint(type(x))\nprint(type(y))\nprint(type(z))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n<class 'int'>\n<class 'int'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "x=38\ny=60\nif x<y:\n      print(\"y x-dan böyükdür\")\nelse: \n    print(\"y x-dan kiçikdir\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "y x-dan böyükdür\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
